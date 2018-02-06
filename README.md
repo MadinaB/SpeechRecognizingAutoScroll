@@ -15,6 +15,6 @@ Just say:
 ![You can download this extension from Chrome Web Store](https://chrome.google.com/webstore/detail/speech-recognition-for-au/jidbhlmffnlfikblembnphamjkjnjenl)
 
 
-![](https://www.youtube.com/watch?v=M938BKixRu4)
+[![ ](https://img.youtube.com/vi/M938BKixRu4/0.jpg)](https://www.youtube.com/watch?v=M938BKixRu4)
 
 Built with the help of  Web Speech API.
