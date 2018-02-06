@@ -10,9 +10,9 @@ The usage is very very simple.
 
 Just say:
 
-'Up' - to scroll up.
-'Down' - to scroll down;
-'Fast' and 'Slow' - to adjust speed of scrolling;
+'Scroll Up' - to scroll up;
+'Scroll Down' - to scroll down;
+'Be Fast' and 'Be Slow' - to adjust speed of scrolling;
 'Stop' - to stop scrolling;
 
 
