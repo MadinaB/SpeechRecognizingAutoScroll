@@ -15,6 +15,7 @@ var intervals = [150,100,50, 20, 20, 20, 20];
 var i = 3;
 var tab = chrome.tabs.getCurrent;
 var scrollingTab;
+var permissionAsked = false;
 disableMicrophone();
 
 function disableMicrophone() {
@@ -82,11 +83,14 @@ recognition.onresult = function(event) {
 recognition.onerror = function(event) {
     switch(event.error){
         case 'not-allowed':
-        navigator.webkitGetUserMedia({audio: true,}, 
-                function(stream) {stream.stop();}, function() {});
+        var permissionUrl = 'permission.html';
+        if(!permissionAsked){
+            permissionAsked = true;
+            chrome.tabs.create({ url: permissionUrl });
+        }
         console.log("error");
     };
-  //  console.log("error");
+   // permissionAsked = false;
 }
 
 recognition.onend = function() {
