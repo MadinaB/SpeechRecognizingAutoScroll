@@ -1,8 +1,8 @@
 # SpeechRecognizingAutoScroll
 Voice recognition-enabled Google Chrome Extension to automatically scroll your web pages.
 
-
-[![Play on image to see demo video! ](https://img.youtube.com/vi/M938BKixRu4/0.jpg)](https://www.youtube.com/watch?v=M938BKixRu4)
+Play on image to see demo video! 
+[![](https://img.youtube.com/vi/M938BKixRu4/0.jpg)](https://www.youtube.com/watch?v=M938BKixRu4)
 
 I hope that this Chrome extension will help you to automatically scroll your web pages by using only your voice.
 
